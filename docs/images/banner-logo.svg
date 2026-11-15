@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="缠论 Skills logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#26215C"/>
+      <stop offset="55%" stop-color="#3C3489"/>
+      <stop offset="100%" stop-color="#534AB7"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#D9D5F5"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8BE0D0"/>
+      <stop offset="100%" stop-color="#6FC9F5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- 圆环：象征"结构与循环" -->
+  <circle cx="256" cy="256" r="176" fill="none" stroke="url(#ink)" stroke-width="7" opacity="0.30"/>
+  <circle cx="256" cy="256" r="176" fill="none" stroke="url(#accent)" stroke-width="7"
+          stroke-linecap="round" stroke-dasharray="180 926"
+          transform="rotate(-95 256 256)"/>
+
+  <!-- 缠论三买结构示意：上升笔 → 中枢 → 离开段 → 回试（第三类买点） -->
+  <g stroke="url(#ink)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- 第一段上升 -->
+    <polyline points="120,352 168,300 214,318"/>
+    <!-- 中枢震荡（矩形框） -->
+    <rect x="214" y="238" width="96" height="80" rx="8" stroke-width="9" opacity="0.55"/>
+    <!-- 离开段向上 -->
+    <polyline points="310,318 330,238 352,196"/>
+    <!-- 回试不破中枢上沿 -->
+    <polyline points="352,196 372,268 398,232"/>
+  </g>
+
+  <!-- 中枢内部填充 -->
+  <rect x="214" y="238" width="96" height="80" rx="8" fill="#FFFFFF" opacity="0.10"/>
+
+  <!-- 第三类买点标记（回试点，位于中枢上方） -->
+  <circle cx="398" cy="232" r="26" fill="url(#accent)"/>
+  <circle cx="398" cy="232" r="26" fill="none" stroke="#26215C" stroke-width="5"/>
+
+  <!-- 顶部 K 线剪影 -->
+  <g opacity="0.42" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round">
+    <path d="M150 150 V196"/>
+    <path d="M198 132 V186"/>
+    <path d="M246 158 V204"/>
+    <path d="M294 126 V180"/>
+    <path d="M342 146 V192"/>
+  </g>
+  <g opacity="0.42" fill="#FFFFFF">
+    <rect x="138" y="162" width="24" height="20" rx="3"/>
+    <rect x="186" y="148" width="24" height="22" rx="3"/>
+    <rect x="234" y="170" width="24" height="20" rx="3"/>
+    <rect x="282" y="142" width="24" height="22" rx="3"/>
+    <rect x="330" y="160" width="24" height="18" rx="3"/>
+  </g>
+</svg>
