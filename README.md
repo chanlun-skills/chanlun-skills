@@ -119,4 +119,13 @@ npx skills add chanlun-skills/chan-skills --skill chanlun-sanmai
 - **补图** —— 录一段你使用 Skill 的演示动图 → PR
 - **提需求** —— 想要哪个主题的 Skill → Issue 讨论
 
+---
+
+## 👤 更多内容
+
+**公众号「缠论量化」** —— 缠论文章持续更新，原始资料包免费分享。
+
+- **知乎**：缠论量化 · https://www.zhihu.com/people/chanlunquant
+- **缠论资料大全**（夸克网盘 · 免费分享）· https://pan.quark.cn/s/f766d88b7331
+
 [![GitHub](https://img.shields.io/badge/GitHub-chanlun--skills-181717)](https://github.com/chanlun-skills)
