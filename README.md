@@ -19,9 +19,21 @@
 把**缠中说禅**（缠师）的技术分析教学、佛学禅宗专栏、周末音乐连载，以及 37 年 A 股妖股实算数据，
 整理成 **6 个可被 AI 直接调用的 Agent Skills**。
 
-[📦 仓库主页](https://github.com/chanlun-skills/chan-skills) · [💬 加群交流](https://github.com/chanlun-skills/chan-skills/blob/main/docs/join.html) · [📖 安装使用指南](https://github.com/chanlun-skills/chan-skills)
+[🌐 网页版](https://chanlun-skills.github.io/chan-skills/) · [📦 仓库主页](https://github.com/chanlun-skills/chan-skills) · [💬 加群交流](https://chanlun-skills.github.io/chan-skills/join.html) · [📖 安装使用指南](https://github.com/chanlun-skills/chan-skills)
 
 </div>
+
+---
+
+## 🌐 网页版
+
+**不用懂 GitHub 也能看** —— 项目介绍、六个 Skill 详解、安装命令、真实运行演示、扫码进群，都在网页版里：
+
+**<https://chanlun-skills.github.io/chan-skills/>**
+
+![网页版预览](https://github.com/chanlun-skills/chan-skills/raw/main/docs/images/demo-yaogu.gif)
+
+内容随仓库 `main` 分支自动更新。
 
 ---
 
